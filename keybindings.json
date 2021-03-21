@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "pageup",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "cursorMove",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 5
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 10
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "cursorMove",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 5
+    },
+    "when": "editorTextFocus"
+  }
+]
